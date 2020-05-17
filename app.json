@@ -3,5 +3,30 @@
     "pages/home/home",
     "pages/about/about"
   ],
-  "sitemapLocation": "sitemap92.json"
+  "window": {
+    "navigationBarBackgroundColor": "#ff5777",
+    "navigationBarTextStyle": "white",
+    "navigationBarTitleText": "小程序",
+    "backgroundColor": "blue",
+    "backgroundTextStyle": "dark",
+    "enablePullDownRefresh": false
+  },
+  "tabBar": {
+    "selectedColor": "#ff5777",
+    "list": [
+      {
+        "pagePath": "pages/home/home",
+        "text": "Home",
+        "iconPath": "assets/tabbar/_ic_tabbar_home.png",
+        "selectedIconPath": "assets/tabbar/ic_tabbar_home_select.png"
+      },
+      {
+        "pagePath": "pages/about/about",
+        "text": "About",
+        "iconPath": "assets/tabbar/04TABbar.png",
+        "selectedIconPath": "assets/tabbar/04TABbar-fill.png"
+      }
+    ]
+  },
+  "sitemapLocation": "sitemap10.json"
 }
